@@ -38,7 +38,7 @@ var map = new mapboxgl.Map({
 map.on('style.load', function() {
 	let tileslayer = new Mapbox3DTiles.Layer( { 
 		id: 'utrecht', 
-		url: './tiles/tileset.json'
+		url: 'https://smart.mos.ru/geodata/3dtiles/rfgm/1000/B36/Scene/tileset.json'
 	} );
 	map.addLayer(tileslayer, 'waterway-label');
 
